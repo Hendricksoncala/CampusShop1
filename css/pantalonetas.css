@@ -79,3 +79,69 @@
     color: black;
     font-size: large;
 }
+@media (width <= 700px){
+    .header{
+        font-size: 10px;
+        text-align: center;
+        margin: none;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin: 0;
+        width: 100%;
+    }
+    .header a{
+
+    }
+    .pagina1{
+
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr ;
+        grid-template-areas:
+        "header main"
+    }
+    .menu_izquierda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    .menu_izquierda img{
+        height: 175px;
+        width: 175px;
+        margin: .5em;
+    }
+    
+    .menu_derecha{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .menu_derecha img{
+        height: 750px;
+        width: 600px;
+        margin: .5em;
+    
+    }
+    .menu_derecha .informacion img{
+        height: 30px;
+        width: 100px;
+    }
+    .informacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 1em;
+        font-size: large;
+        height: 800px;
+        width: 600px;
+    }
+    .informacion h1{
+        font-size:xxx-large;
+    }
+} 
